@@ -1,7 +1,7 @@
 .main{
     position: relative;
     height: 736px;
-    background: url(../Стихи/img/solnce.jpg) 0 0 no-repeat;
+    background: url(../img/solnce.jpg) 0 0 no-repeat;
     background-position: -14rem 0;
     background-size: cover;
 }
