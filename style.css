@@ -1,0 +1,72 @@
+.main{
+    position: relative;
+    height: 736px;
+    background: url(../Стихи/img/solnce.jpg) 0 0 no-repeat;
+    background-position: -14rem 0;
+    background-size: cover;
+}
+
+.main::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.3);
+    z-index: 2;  
+}
+
+.wrapper_main_text{
+    position: relative;
+    z-index: 3;
+    padding-top: 150px;
+}
+
+.wrapper_color{
+    position: relative;
+    z-index: 4;
+    background-color: rgba(255, 174, 23, .75);
+    border-radius: 10px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 55px;
+}
+
+.button_stih{
+    position: relative;
+    z-index: 4;
+    width: 200px;
+    height: 52px;
+    margin-left: 92px;
+    margin-top: 350px;
+    background-color: #fff;
+    border-width: 0;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.modal-header{
+    border-bottom: none;
+}
+
+.modal-title{
+    position: absolute;
+    left: 40%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.modal-body{
+    font-family: 'Cormorant SC', serif;
+    font-size: 20px;
+    padding-bottom: 27px;
+}
